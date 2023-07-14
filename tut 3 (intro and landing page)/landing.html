@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <title>Sample Landing Page</title>
+</head>
+<body>
+
+    <header class="flex bg-purple-800 text-white px-10 py-2 items-center">
+
+        <div class="inline">
+            <img src="logo.png" class="w-16 rounded-full inline" alt="">
+            <h1 class="inline px-5 font-serif uppercase text-lg">PhoneMania</h1>
+        </div>
+
+        <nav class="mx-auto">
+            <ul class="flex space-x-8">
+                <li class="cursor-pointer hover:underline">Home</li>
+                <li class="cursor-pointer hover:underline">About</li>
+                <li class="cursor-pointer hover:underline">Catalogue</li>
+                <li class="cursor-pointer hover:underline">Contact Us</li>
+            </ul>
+        </nav>
+
+        <div class="right">
+            <button class="bg-white text-black  px-8 py-2 rounded-md hover:-translate-y-1 duration-300">Call Now</button>
+        </div>
+    </header>
+
+    <!-- Main body section -->
+    <main class="flex items-center bg-purple-100">
+        <div class="content-section w-1/2 ml-20 my-4 py-20 px-10">
+            <h1 class="text-blue-900 text-3xl mb-10">The best phones in the town</h1>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos exercitationem hic maiores natus unde voluptate dicta possimus repellendus enim porro fuga beatae, sint laborum voluptates numquam repudiandae blanditiis esse deserunt commodi!</p>
+            <button class="bg-purple-800 text-white my-10 mr-5 px-8 py-2 rounded-md hover:drop-shadow-2xl hover:animate-bounce">Buy Now</button>
+            <button class="bg-purple-800 text-white my-10 ml-5 px-8 py-2 rounded-md hover:drop-shadow-2xl hover:animate-bounce">Call Us</button>
+        </div>
+
+        <div class="photo-section">
+            <!-- <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_bcbd2axv.json" background="transparent"  speed="1" style="width: 500px; height: 500px; "  loop autoplay></lottie-player> -->
+            <img src="bg.png" class="w-72 ml-40 hover:scale-125 duration-500" alt="">
+        </div>
+    </main>
+
+</body>
+</html>
