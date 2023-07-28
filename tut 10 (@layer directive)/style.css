@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+.componentsafter{
+    text-align: center;
+}
+
+@tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply bg-blue-600 text-white rounded-md px-2 py-1;
+    }
+}
+/* if we see our stylesheet in inspect element, btn class is defined at the last of component layer and then
+    componentsafter class is defined...it means @layer --layerName--  will put that particular class at
+    the end of that --layerName--
+    (componentafter) bs isilie likha taki pta lg jae kb component layer khtm hui h
+    
+    eg. @layer utilities likha hota to btn class utility layer ke end me define hoti
+    */
