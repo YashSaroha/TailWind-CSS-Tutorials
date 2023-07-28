@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Customizing Tailwind Css</title>
+</head>
+<body>
+    <div class="xsm:bg-red-600 md:bg-purple-500 bg-slate-500">This is a sample text which changes with screen size</div>
+    <p class="mx-10 text-purple-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere omnis beatae ipsa, quia iure maiores sit, ullam dolor harum libero itaque minus fugiat laborum asperiores reprehenderit, autem labore cupiditate alias.</p>
+    <p class="mx-13 text-10xl">This is a para</p>
+    <!-- yashconfig file contains all the datasets of tailwind jinko use krke hm tailwind.config file change kr 
+         skte hain-->
+    <!-- command used to create this file is -->
+    <!-- npx tailwindcss init yashconfig --full -->
+    <!-- initially mx-13 and text-10xl was not a utility class but tailwind.config file me extend ke andr inko
+         add krne se hm inki koi bhi custom value de skte hai -->
+    <!-- for screen size, xsm koi class nhi hoti to agr screen breakpoint add krna hai to sare breakpoints
+         likhne pdenge tailwind.config me 'extend' se phle, sirf xsm se kaam nhi chlega -->
+</body>
+</html>
